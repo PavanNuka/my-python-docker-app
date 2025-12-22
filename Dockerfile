@@ -10,6 +10,6 @@ RUN pip install -r requirements.txt
 
 # Copy your entire application folder into the container
 COPY . .
-
+EXPOSE 5000
 # Run your Flask app
 CMD ["python", "app4.py"]
